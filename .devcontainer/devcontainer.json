@@ -1,0 +1,11 @@
+{
+    "name": "Hello COMP423 in a dev container for Go",
+    "image": "mcr.microsoft.com/vscode/devcontainers/go:latest",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": ["golang.go"]
+        }
+    },
+    "postCreateCommand": "go version"
+}
